@@ -18,4 +18,8 @@ function nearestPickup(position, rides){
   );
 }
 
+function getFinishPoint(ride){
+  return { r:ride.x, c:ride.y};
+}
+
 bootstrap();
